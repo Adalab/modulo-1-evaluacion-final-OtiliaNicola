@@ -35,3 +35,24 @@
     height: auto;
     padding: 30px 15px 45px 15px;
 }
+.small{
+    color:var(--lightblue);
+    font-size: small;
+}
+
+.section-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.section-text{
+    margin: 20px 0 26px;
+}
+.section-go {
+    border: 2px solid var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+    border-radius: 21px;
+    border-color: var(--orange);
+    padding: 9px 20px;
+    font-size: 80%;
+}
