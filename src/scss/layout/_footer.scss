@@ -1,20 +1,35 @@
 .footer {
     display: flex;
-    background-color: var(--darkblue);
-    color: var(--white);
+    /*     background-color: var(--darkblue);
+    color: var(--white); */
 }
 
-.footer_menu{
-    
+
+
+.footer_menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_menu {
+
     text-decoration: none;
 }
 
-.footer_copy{
+.footer_copy {}
 
-}
+@media screen and (min-width:478px) {
+    .footer_menu {
+        flex-direction: row;
+    }
 
-.list1-column{
-    color: white;
-    
 
+    .footer_list {
+        flex-direction: row;
+    }
 }
