@@ -34,6 +34,7 @@
 .insomnia {
     width: 100vw;
     height: auto;
+    border-top: 30px solid white;
     padding: 30px 15px 45px 15px;
 }
 
@@ -62,10 +63,22 @@
 }
 
 .reasons-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+h4{
     font-size: 1rem;
     font-weight: bold;
 }
 
+p{
+    font-size: medium;
+}
+
+article{
+    padding-left: 70px;
+        padding-right: 70px;
+}
 .reasons {
     padding: 30px 15px 60px 15px;
     display: grid;
