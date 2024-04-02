@@ -48,8 +48,13 @@
 }
 
 @media screen and (min-width: 768px) {
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+    }
     .footer_menu {
-        
         flex-direction: row;
     }
     .footer_list {
