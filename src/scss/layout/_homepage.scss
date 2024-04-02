@@ -4,7 +4,7 @@
     background: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;  
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -13,7 +13,7 @@
     padding-bottom: 25px;
 }
 
-.title{
+.title {
     color: var(--white);
     font-family: "Roboto";
     font-size: xxx-large;
@@ -21,32 +21,36 @@
     text-align: center;
 }
 
-.proxy-text{
+.proxy-text {
     color: white;
 }
 
-.button-down{
+.button-down {
     border-radius: 50%;
     background-color: white;
     padding: 5px;
 }
-.insomnia{
+
+.insomnia {
     width: 100vw;
     height: auto;
     padding: 30px 15px 45px 15px;
 }
-.small{
-    color:var(--lightblue);
+
+.small {
+    color: var(--lightblue);
     font-size: small;
 }
 
-.section-title{
+.section-title {
     font-size: 1.3rem;
     font-weight: bold;
 }
-.section-text{
+
+.section-text {
     margin: 20px 0 26px;
 }
+
 .section-go {
     border: 2px solid var(--orange);
     background-color: var(--white);
@@ -56,3 +60,22 @@
     padding: 9px 20px;
     font-size: 80%;
 }
+
+.reasons {
+    padding: 30px 15px 60px 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    @media screen and (min width:768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+.article_item-1 {
+    &_item-2 {
+        &_item3{
+            grid-row: span 1;
+        }
+        }
+    }
